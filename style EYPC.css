@@ -1,0 +1,42 @@
+@font-face {
+  font-family: 'coolvetica';
+  src: url(font/coolvetica\ rg.otf);
+}
+
+@font-face {
+  font-family: 'gothamblack';
+  src: url(font/Gotham-Black.otf);
+}
+
+.navbar {
+  font-family: 'coolvetica';
+  font-size: medium;
+  letter-spacing: 1px;
+}
+
+body {
+  min-height: 5000px;
+}
+
+#aboutus {
+  height: 350px;
+}
+
+h2 {
+  font-family: 'gothamblack';
+}
+
+.iframe-container {
+  position: relative;
+  width: 100%;
+  padding-bottom: 56.25%;
+  height: 0;
+}
+
+.iframe-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}

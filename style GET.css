@@ -1,0 +1,95 @@
+/* Font Face */
+@font-face {
+  font-family: 'coolvetica';
+  src: url(font/coolvetica\ rg.otf);
+}
+
+@font-face {
+  font-family: 'gothambold';
+  src: url(font/Gotham-Bold.otf);
+}
+/* End Font Face Style */
+
+/* Navigation Bar Style*/
+.navbar {
+  font-family: 'gothambold';
+  font-size: small;
+  letter-spacing: 0px;
+}
+
+nav {
+  transition: 300ms;
+}
+
+nav.sticky {
+  background: #ffffffe7;
+  padding-top: 0px;
+}
+
+/* End Navigation Bar Style */
+
+/* Carousel Slide Style*/
+.slide {
+  padding-top: 0rem;
+}
+
+/* End Carousel Slide Style */
+
+body {
+  min-height: 0px;
+}
+
+/* YouTube Embeded Style */
+/* If displayed on PC/Laptop device */
+.iframe-container {
+  position: relative;
+  width: 70%;
+  padding-bottom: 56.25%;
+  height: 0;
+}
+
+.iframe-container iframe {
+  position: absolute;
+  top: 0;
+  left: 170px;
+  width: 70%;
+  height: 70%;
+}
+
+/* If displayed on mobile device */
+@media screen and (max-width: 415px) {
+  .iframe-container {
+    position: relative;
+    width: 70%;
+    padding-bottom: 56.25%;
+    height: 0;
+  }
+
+  .iframe-container iframe {
+    position: absolute;
+    top: 0;
+    left: 60px;
+    width: 70%;
+    height: 70%;
+  }
+}
+/* End YouTube Embeded Style */
+
+/* Carousel Fade Style */
+#carouselExampleFade {
+  width: 50%;
+  height: 50%;
+}
+/* End Carousel Fade Style */
+
+section {
+  padding-top: 7rem;
+}
+
+.nav-link:hover {
+  background-color: #acacac;
+}
+
+.btn-submit {
+  font-family: 'gothambold';
+}
